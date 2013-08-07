@@ -20,6 +20,16 @@
            sync-c="true"
            sync-j="4" />
 
+  <!-- umts-yangtze private repo -->
+  <project path="external/kernel-headers" name="gopise/cm-umts-yangtze-external-kernel-headers" remote="github-gopise" revision="refs/heads/master" />
+  <project path="external/libphonenumber" name="gopise/cm-umts-yangtze-external-libphonenumber" remote="github-gopise" revision="refs/heads/master" />
+  <project path="external/wpa_supplicant_8_ti" name="gopise/cm-umts-yangtze-external-wpa_supplicant_8_ti" remote="github-gopise" revision="refs/heads/master" />
+  <project path="frameworks/av" name="gopise/cm-umts-yangtze-frameworks-av" remote="github-gopise" revision="refs/heads/master" />
+  <project path="frameworks/native" name="gopise/cm-umts-yangtze-frameworks-native" remote="github-gopise" revision="refs/heads/master" />
+  <project path="hardware/libhardware_legacy" name="gopise/cm-umts-yangtze-hardware-libhardware_legacy" remote="github-gopise" revision="refs/heads/master" />  
+  <project path="system/core" name="gopise/cm-umts-yangtze-system-core" remote="github-gopise" revision="refs/heads/master" />
+  <!-- project path="vendor/cm" name="gopise/cm-umts-yangtze-vendor-cm" remote="github-gopise" revision="refs/heads/master" / -->
+
   <project path="build" name="CyanogenMod/android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -389,13 +399,4 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
  
-  <!-- umts-yangtze private repo -->
-  <project path="external/kernel-headers" name="gopise/cm-umts-yangtze-external-kernel-headers" remote="github-gopise" revision="refs/heads/master" />
-  <project path="external/libphonenumber" name="gopise/cm-umts-yangtze-external-libphonenumber" remote="github-gopise" revision="refs/heads/master" />
-  <project path="external/wpa_supplicant_8_ti" name="gopise/cm-umts-yangtze-external-wpa_supplicant_8_ti" remote="github-gopise" revision="refs/heads/master" />
-  <project path="frameworks/av" name="gopise/cm-umts-yangtze-frameworks-av" remote="github-gopise" revision="refs/heads/master" />
-  <project path="frameworks/native" name="gopise/cm-umts-yangtze-frameworks-native" remote="github-gopise" revision="refs/heads/master" />
-  <project path="hardware/libhardware_legacy" name="gopise/cm-umts-yangtze-hardware-libhardware_legacy" remote="github-gopise" revision="refs/heads/master" />  
-  <project path="system/core" name="gopise/cm-umts-yangtze-system-core" remote="github-gopise" revision="refs/heads/master" />
-  <!-- project path="vendor/cm" name="gopise/cm-umts-yangtze-vendor-cm" remote="github-gopise" revision="refs/heads/master" / -->
 </manifest>
