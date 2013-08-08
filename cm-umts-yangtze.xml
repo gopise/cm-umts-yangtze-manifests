@@ -28,6 +28,9 @@
   <project path="frameworks/native" name="gopise/cm-umts-yangtze-frameworks-native" remote="github-gopise" revision="refs/heads/master" />
   <project path="hardware/libhardware_legacy" name="gopise/cm-umts-yangtze-hardware-libhardware_legacy" remote="github-gopise" revision="refs/heads/master" />  
   <project path="system/core" name="gopise/cm-umts-yangtze-system-core" remote="github-gopise" revision="refs/heads/master" />
+  <project path="vendor/motorola" name="gopise/cm-umts-yangtze-vendor-motorola" remote="github-gopise" revision="refs/heads/master" / -->  
+  <project path="device/motorola/umts_yangtze" name="gopise/cm-umts-yangtze-device-motorola-umts_yangtze" remote="github-gopise" revision="refs/heads/master" / -->
+  <project path="device/motorola/omap4-common" name="gopise/cm-umts-yangtze-device-motorola-omap4-common" remote="github-gopise" revision="refs/heads/master" / -->
   <!-- project path="vendor/cm" name="gopise/cm-umts-yangtze-vendor-cm" remote="github-gopise" revision="refs/heads/master" / -->
 
   <project path="build" name="CyanogenMod/android_build">
