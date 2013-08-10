@@ -1,5 +1,5 @@
 cm-umts-yangtze
------------------------------------------------------
+====================
 This is the private porting of CyanogenMod 10.1 for "umts-yangtze". The "umts-yangtze" mentioned here is the 
 code name for Motorola Razr V serials including XT885/XT887/XT889.
 The initial code release is based on the official branch of CM for XT910 which has a same CPU and platform.
@@ -7,9 +7,9 @@ Basic test only performs on XT885.
 
 
 Setup the working tree:
------------------------------------------------------
+====================
 Step 1:
-========
+--------------------
 On local linux box (recommand uBuntu 12.04 LTS x64):
 <working_folder> is a placeholder for a folder name for your cm-umts-yangtze repo.
 
@@ -23,7 +23,7 @@ On local linux box (recommand uBuntu 12.04 LTS x64):
 Then, wait...for a long time.
 
 Step 2:
-========
+--------------------
 Type the following command:
 
     cd <working_folder>/bionic/libc/kernel/tools
@@ -32,7 +32,7 @@ Type the following command:
 The linux header file for biolic will be updated.
 
 Step 3:
-========
+--------------------
 Download a proprietary package (actually term.apk) from the following URL:
 	https://github.com/gopise/cm-term
 Uncompress and copy it to <working_folder>/vendor/cm/. Final folder structure might looked like:
@@ -42,7 +42,7 @@ Actually this is not a must, but you may need to change the makefile (vendor/cm/
 
 
 Build the package:
------------------------------------------------------
+====================
 Type the following commands to start the build:
 
     cd <working_folder>
